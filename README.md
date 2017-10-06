@@ -1,15 +1,15 @@
 # KidPoints
 
-Idea preliminar
-------------------
+## Idea preliminar
+
 Sistema de puntuación / premios
 
-Resumen
--------
+## Resumen
+
 Aplicación pensada para la gestión de puntos y premios, para motivar el buen comportamiento de los niños.
 
-Análisis
---------
+## Análisis
+
 La aplicación tendrá varias pantallas.
 
 - Login: el usuario tiene que introducir login/pw para poder acceder a la aplicación. En función del usuario, tendrá un tipo de rol u otro que habilitará distintas opciones.
@@ -19,9 +19,49 @@ La aplicación tendrá varias pantallas.
 - Registro de niños: Pantalla para dar de alta a niños
 - Configuración: desde esta pantalla se podrá gestionar los datos del usuario y sus preferencias (cantidad de puntos máximos al dia, datos personales) y dar permiso a otros usuarios para acceder a los datos de los niños
 
-Tecnología
-----------
-- Node.js
-- ES6
-- PouchDB
+## Prerequisites
 
+You will need the following things properly installed on your computer.
+
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with NPM)
+* [Ember CLI](https://ember-cli.com/)
+* [Google Chrome](https://google.com/chrome/)
+* [PouchDB] 
+
+## Installation
+
+* `git clone <repository-url>` this repository
+* `cd kid-points`
+* `npm install`
+
+## Running / Development
+
+* `ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
+
+### Code Generators
+
+Make use of the many generators for code, try `ember help generate` for more details
+
+### Running Tests
+
+* `ember test`
+* `ember test --server`
+
+### Building
+
+* `ember build` (development)
+* `ember build --environment production` (production)
+
+### Deploying
+
+Specify what it takes to deploy your app.
+
+## Further Reading / Useful Links
+
+* [ember.js](https://emberjs.com/)
+* [ember-cli](https://ember-cli.com/)
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
