@@ -7,6 +7,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('mostrar');
+  this.route('asignar');
+  this.route('puntos');
+  this.route('config');
+  this.route('registrar');
+  this.route('premios');
 });
 
 export default Router;

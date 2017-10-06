@@ -1,0 +1,17 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Puntos</h2>
+  <p>Desde aquí podrás consultar el saldo de puntos</p>
+</div>
+
+{{#each model as |puntos|}}
+  <article class="listing">
+    <h3>{{puntos.title}}</h3>
+    <div class="detail puntos_act">
+      <span>Puntos actuales: </span>{{puntos.puntos_act}}
+    </div>
+    <div class="detail puntos_tot">
+      <span>Puntos totales: </span>{{puntos.puntos_tot}}
+    </div>
+  </article>
+{{/each}}
